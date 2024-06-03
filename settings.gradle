@@ -6,6 +6,10 @@ include ':paparazzi-preview-processor'
 include ':paparazzi-gradle-plugin'
 
 include ':sample'
+//include ':poc:ui'
+include ':poc:default-icon-provider'
+include ':poc:icon-provider'
+include ':poc:ui'
 
 enableFeaturePreview('TYPESAFE_PROJECT_ACCESSORS')
 
